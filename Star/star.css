@@ -1,0 +1,15 @@
+.star{
+  margin: 0 1px;
+  color: lightgray;
+  display: inline-block;
+  cursor: pointer;
+  font-size: x-large;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0,0.5);
+}
+.star.potentialSelect{
+ color: yellow; 
+}
+.star.selected{
+  color: gold;
+  text-shadow: 1px 1px 3px black;
+}
